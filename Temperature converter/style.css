@@ -1,0 +1,82 @@
+.container {
+  margin: 20px;
+  text-align: center;
+}
+
+.box {
+  width: 420px;
+  height: 520px;
+  border: 3px solid green;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(132deg, rgb(31, 207, 195) 0%, rgb(31, 145, 207) 100%);
+  border-radius: 50px;
+  box-shadow: 3px -10px 158px 10px rgba(0, 0, 0, 0.81);
+  transition: all 0.5s;
+}
+
+.box:hover {
+  box-shadow: 16px -5px 400px 98px rgba(97, 18, 244, 0.83);
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, blue, orange);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin-left: 10px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 183, 0), 0 0 5px rgb(225, 225, 225);
+}
+
+#celsius,
+#fahrenheit {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  padding: 0;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 15%;
+  backface-visibility: hidden;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  ;
+}
+#celsius::placeholder {
+  color: #333;
+}
+#fahrenheit::placeholder {
+  color: #333;
+}
+
+.button {
+  margin-top: 15%;
+  font-size: large;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(123, 15, 15);
+  color: aliceblue;
+}
+
+.button:hover {
+  background-color: aquamarine;
+  color: black;
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
